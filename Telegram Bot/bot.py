@@ -17,7 +17,7 @@ logging.basicConfig(
     ]
 )
 
-TOKEN: Final = "6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg"
+TOKEN: Final = "BOT_TOKEN"
 USERNAME: Final = 'Crop_Yield_bot'
 PREDICT = False
 
