@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Crop Yield Prediction</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-image: url('/static/img.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .form {
+      display: inline-block;
+      text-align: left;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .form label {
+      font-weight: bold;
+    }
+
+    .form select,
+    .form input[type="text"] {
+      width: 200px;
+      padding: 5px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    .form button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .form button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h2>Crop Yield Prediction</h2>
+  </div>
+
+  <div class="form">
+    <form method="post" action="/">
+      <div>
+        <label for="model">Model:</label>
+        <select name="model" id="model">
+          <option value="Random Forest">Random Forest</option>
+          <option value="K Nearest Neighbor">K Nearest Neighbor</option>
+          <option value="Voting Ensemble">Voting Ensemble</option>
+          <option value="Stacking">Stacking</option>
+        </select>
+      </div>
+      <div>
+        <label for="crop">Crop:</label>
+        <select name="crop" id="crop">
+          <option value="Maize">Maize</option>
+          <option value="Potatoes">Potatoes</option>
+          <option value="Rice, Paddy">Rice, Paddy</option>
+          <option value="Sorghum">Sorghum</option>
+          <option value="Soyabeans">Soyabeans</option>
+          <option value="Wheat">Wheat</option>
+          <option value="Cassava">Cassava</option>
+          <option value="Sweet Potatoes">Sweet Potatoes</option>
+          <option value="Yams">Yams</option>
+          <option value="Plantains and others">Plantains and others</option>
+        </select>
+      </div>
+      <div>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+          <!-- Options dynamically generated with a loop -->
+          <script>
+            var countries = ['Albania', 'Algeria', 'Angola', 'Antigua and Barbuda', 'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 'Bangladesh', 'Barbados', 'Belarus', 'Belgium', 'Belgium-Luxembourg', 'Belize', 'Bermuda', 'Bhutan', 'Bolivia (Plurinational State of)', 'Botswana', 'Brazil', 'Brunei Darussalam', 'Bulgaria', 'Burkina Faso', 'Burundi', 'Cabo Verde', 'Cameroon', 'Canada', 'Central African Republic', 'Chad', 'Chile', 'China, Hong Kong SAR', 'China, Macao SAR', 'China, Taiwan Province of', 'China, mainland', 'Colombia', 'Comoros', 'Congo', 'Cook Islands', 'Costa Rica', 'Croatia', 'Cyprus', 'Czechia', "Côte d'Ivoire", 'Denmark', 'Dominican Republic', 'Ecuador', 'Egypt', 'El Salvador', 'Eritrea', 'Estonia', 'Ethiopia', 'Fiji', 'Finland', 'France', 'French Polynesia', 'Gambia', 'Germany', 'Ghana', 'Greece', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana', 'Haiti', 'Honduras', 'Hungary', 'Iceland', 'India', 'Indonesia', 'Iran (Islamic Republic of)', 'Iraq', 'Ireland', 'Israel', 'Italy', 'Jamaica', 'Japan', 'Jordan', 'Kazakhstan', 'Kenya', 'Kuwait', 'Kyrgyzstan', "Lao People's Democratic Republic", 'Latvia', 'Lebanon', 'Lesotho', 'Libya', 'Lithuania', 'Luxembourg', 'Madagascar', 'Malawi', 'Malaysia', 'Maldives', 'Mali', 'Malta', 'Mauritania', 'Mauritius', 'Mexico', 'Montenegro', 'Morocco', 'Mozambique', 'Myanmar', 'Namibia', 'Nepal', 'Netherlands', 'New Caledonia', 'New Zealand', 'Nicaragua', 'Niger', 'Norway', 'Occupied Palestinian Territory', 'Oman', 'Pakistan', 'Panama', 'Papua New Guinea', 'Paraguay', 'Peru', 'Poland', 'Portugal', 'Qatar', 'Republic of Korea', 'Republic of Moldova', 'Romania', 'Russian Federation', 'Rwanda', 'Saint Kitts and Nevis', 'Saint Lucia', 'Samoa', 'Saudi Arabia', 'Senegal', 'Serbia and Montenegro', 'Seychelles', 'Slovakia', 'Slovenia', 'South Africa', 'Spain', 'Sri Lanka', 'Sudan', 'Sudan (former)', 'Suriname', 'Sweden', 'Switzerland', 'Syrian Arab Republic', 'Tajikistan', 'Thailand', 'The former Yugoslav Republic of Macedonia', 'Timor-Leste', 'Togo', 'Tonga', 'Trinidad and Tobago', 'Tunisia', 'Turkey', 'Turkmenistan', 'USSR', 'Uganda', 'Ukraine', 'United Kingdom', 'United Republic of Tanzania', 'United States of America', 'Uruguay', 'Vanuatu', 'Venezuela (Bolivarian Republic of)', 'Viet Nam', 'Yemen', 'Yugoslav SFR', 'Zambia', 'Zimbabwe'];
+            var selectElement = document.getElementById("country");
+            for (var i = 0; i < countries.length; i++) {
+              var option = document.createElement("option");
+              option.value = countries[i];
+              option.text = countries[i];
+              selectElement.appendChild(option);
+            }
+          </script>
+        </select>
+      </div>
+      <div>
+        <label for="year">Year:</label>
+        <input type="text" name="year" id="year">
+      </div>
+      <div>
+        <label for="average_rainfall">Average Rainfall:</label>
+        <input type="text" name="average_rainfall" id="average_rainfall">
+      </div>
+      <div>
+        <label for="pesticides">Pesticides:</label>
+        <input type="text" name="pesticides" id="pesticides">
+      </div>
+      <div>
+        <label for="average_temp">Average Temperature:</label>
+        <input type="text" name="average_temp" id="average_temp">
+      </div>
+      <div>
+        <label for="result">Result:</label>
+        <span id="result">{{ prediction_result }} hg/ha</span>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+  </div>
+
+</body>
+
+</html>

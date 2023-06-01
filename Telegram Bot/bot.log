@@ -1,0 +1,143 @@
+2023-06-01 11:22:32,480 [INFO] (bot.py:144) Starting Application
+2023-06-01 11:22:32,603 [INFO] (bot.py:157) Running Polling
+2023-06-01 11:22:33,322 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getMe "HTTP/1.1 200 OK"
+2023-06-01 11:22:33,483 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/deleteWebhook "HTTP/1.1 200 OK"
+2023-06-01 11:22:33,485 [INFO] (_application.py:571) Application started
+2023-06-01 11:22:44,070 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:22:50,724 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:22:51,531 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:22:51,534 [INFO] (bot.py:28) Received start command.
+2023-06-01 11:23:01,984 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:23:13,248 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:23:23,080 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:23:24,204 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:23:24,205 [INFO] (bot.py:63) Received help command.
+2023-06-01 11:23:34,440 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:23:45,702 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:23:57,067 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:24:07,467 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:24:08,431 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:24:18,772 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:24:23,382 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:24:24,198 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:24:24,199 [INFO] (bot.py:74) Received predict command.
+2023-06-01 11:24:29,728 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:24:29,729 [INFO] (bot.py:83) Received message: ['K Nearest Neighbor', 'Maize', 'India', '2002', '34', '67', '34']
+2023-06-01 11:24:30,751 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:24:30,753 [INFO] (bot.py:102) Prediction sent.
+2023-06-01 11:24:40,989 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:24:52,255 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:24:59,979 [INFO] (_application.py:604) Application is stopping. This might take a moment.
+2023-06-01 11:24:59,980 [INFO] (_application.py:629) Application.stop() complete
+2023-06-01 11:25:54,886 [INFO] (bot.py:143) Starting Application
+2023-06-01 11:25:55,008 [INFO] (bot.py:156) Running Polling
+2023-06-01 11:25:55,837 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getMe "HTTP/1.1 200 OK"
+2023-06-01 11:25:56,040 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/deleteWebhook "HTTP/1.1 200 OK"
+2023-06-01 11:25:56,043 [INFO] (_application.py:571) Application started
+2023-06-01 11:26:02,696 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:26:03,515 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:26:03,516 [INFO] (bot.py:62) Received help command.
+2023-06-01 11:26:09,146 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:26:10,168 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:26:14,369 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:26:14,699 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:26:14,700 [INFO] (bot.py:73) Received predict command.
+2023-06-01 11:26:18,475 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:26:18,477 [INFO] (bot.py:82) Received message: ['K Nearest Neighbor', 'Maize', 'India', '2002', '34', '67', '34']
+2023-06-01 11:26:19,079 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:26:19,080 [INFO] (bot.py:101) Prediction sent.
+2023-06-01 11:26:29,728 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:26:34,950 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:26:35,769 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:26:35,770 [INFO] (bot.py:27) Received start command.
+2023-06-01 11:26:46,213 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:26:57,476 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:27:08,739 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:27:19,903 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:27:31,163 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:27:42,426 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:27:44,576 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:27:45,396 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:27:45,398 [INFO] (bot.py:27) Received start command.
+2023-06-01 11:27:53,587 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:27:54,407 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:27:54,409 [INFO] (bot.py:62) Received help command.
+2023-06-01 11:28:04,856 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:28:14,066 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:28:14,990 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:28:19,391 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:28:19,800 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:28:19,801 [INFO] (bot.py:73) Received predict command.
+2023-06-01 11:28:30,654 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:28:41,918 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:28:53,181 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:28:56,457 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:28:57,276 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:28:57,278 [INFO] (bot.py:27) Received start command.
+2023-06-01 11:29:07,721 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:29:09,567 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:29:10,281 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getFile "HTTP/1.1 200 OK"
+2023-06-01 11:29:12,703 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:29:12,705 [INFO] (bot.py:119) Processing document...
+2023-06-01 11:29:13,499 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:29:13,501 [INFO] (bot.py:122) Document processed.
+2023-06-01 11:29:15,704 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendDocument "HTTP/1.1 200 OK"
+2023-06-01 11:29:15,705 [INFO] (bot.py:127) Prediction file sent.
+2023-06-01 11:29:22,577 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:29:33,847 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:29:34,663 [INFO] (_application.py:604) Application is stopping. This might take a moment.
+2023-06-01 11:29:34,663 [INFO] (_application.py:629) Application.stop() complete
+2023-06-01 11:30:16,071 [INFO] (bot.py:143) Starting Application
+2023-06-01 11:30:16,190 [INFO] (bot.py:156) Running Polling
+2023-06-01 11:30:16,981 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getMe "HTTP/1.1 200 OK"
+2023-06-01 11:30:17,292 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/deleteWebhook "HTTP/1.1 200 OK"
+2023-06-01 11:30:17,294 [INFO] (_application.py:571) Application started
+2023-06-01 11:30:23,024 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:30:23,947 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:30:32,653 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:30:33,883 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:30:33,885 [INFO] (bot.py:62) Received help command.
+2023-06-01 11:30:43,922 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:30:55,190 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:31:02,156 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:31:03,078 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getFile "HTTP/1.1 200 OK"
+2023-06-01 11:31:07,771 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:31:07,773 [INFO] (bot.py:119) Processing document...
+2023-06-01 11:31:08,602 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendMessage "HTTP/1.1 200 OK"
+2023-06-01 11:31:08,603 [INFO] (bot.py:122) Document processed.
+2023-06-01 11:31:17,921 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:31:22,396 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/sendDocument "HTTP/1.1 200 OK"
+2023-06-01 11:31:22,397 [INFO] (bot.py:127) Prediction file sent.
+2023-06-01 11:31:29,515 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:31:40,975 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:31:52,243 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:32:03,500 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:32:14,878 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:32:26,247 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:32:37,547 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:32:48,779 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:33:00,043 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:33:11,500 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:33:22,783 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:33:34,046 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:33:45,414 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:33:56,678 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:34:07,943 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:34:19,208 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:34:30,576 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:34:41,841 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:34:53,112 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:35:04,370 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:35:15,635 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:35:26,901 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:35:38,166 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:35:49,736 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:36:01,003 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:36:12,268 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:36:23,531 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:36:34,796 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:36:46,061 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:36:57,326 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:37:08,590 [INFO] (_client.py:1729) HTTP Request: POST https://api.telegram.org/bot6199431269:AAHSTgh_KEvb9SIsAGLwyi0U0VmjvMg0vrg/getUpdates "HTTP/1.1 200 OK"
+2023-06-01 11:37:16,840 [INFO] (_application.py:604) Application is stopping. This might take a moment.
+2023-06-01 11:37:16,841 [INFO] (_application.py:629) Application.stop() complete

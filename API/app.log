@@ -1,0 +1,5 @@
+2023-06-01 11:46:28,224 - INFO - Root endpoint accessed
+2023-06-01 11:46:37,967 - INFO - Root endpoint accessed
+2023-06-01 11:47:03,537 - INFO - Prediction request received
+2023-06-01 11:47:03,538 - INFO - Model: Random Forest, Crop: Maize, Country: India, Year: 1990.0, Average Rainfall: 1.0, Pesticides: 1.0, Average Temperature: 1.0
+2023-06-01 11:47:03,561 - INFO - Crop Yield Prediction: 27017.33 hg/ha

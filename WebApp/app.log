@@ -1,0 +1,13 @@
+2023-06-01 11:43:28,056 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2023-06-01 11:43:28,057 - INFO - [33mPress CTRL+C to quit[0m
+2023-06-01 11:43:28,057 - INFO -  * Restarting with stat
+2023-06-01 11:43:29,066 - WARNING -  * Debugger is active!
+2023-06-01 11:43:29,067 - INFO -  * Debugger PIN: 660-053-581
+2023-06-01 11:43:41,132 - INFO - 127.0.0.1 - - [01/Jun/2023 11:43:41] "GET / HTTP/1.1" 200 -
+2023-06-01 11:43:41,236 - INFO - 127.0.0.1 - - [01/Jun/2023 11:43:41] "[36mGET /static/img.jpg HTTP/1.1[0m" 304 -
+2023-06-01 11:43:50,636 - INFO - Received prediction request
+2023-06-01 11:43:50,637 - INFO - Model: Random Forest, Crop: Maize, Country: Albania, Year: 1990.0, Average Rainfall: 1.0, Pesticides: 1.0, Average Temperature: 1.0
+2023-06-01 11:43:50,647 - INFO - Crop Yield Prediction: 28286.22 hg/ha
+2023-06-01 11:43:50,649 - INFO - 127.0.0.1 - - [01/Jun/2023 11:43:50] "POST / HTTP/1.1" 200 -
+2023-06-01 11:43:50,749 - INFO - 127.0.0.1 - - [01/Jun/2023 11:43:50] "[36mGET /static/img.jpg HTTP/1.1[0m" 304 -
